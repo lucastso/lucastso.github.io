@@ -1,0 +1,24 @@
+.title-container {
+  margin-top: 2rem;
+  padding-right: 42rem;
+  padding-left: 42rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container {
+  width: 8rem;
+  height: 8rem;
+  background-image: url("../../assets/lts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid rgb(226, 226, 226);
+  border-radius: 99px;
+}
+
+.texts {
+  color: rgb(226, 226, 226);
+}

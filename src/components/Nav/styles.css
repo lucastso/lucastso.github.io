@@ -1,0 +1,51 @@
+.container {
+  height: 6vh;
+  background-color: rgba(32, 32, 35, 0.5);
+  backdrop-filter: blur;
+  padding: 0 36rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-nav-items {
+  display: flex;
+  gap: 2rem;
+}
+
+.second-nav-items {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-opt {
+  color: rgb(226, 226, 226);
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.media-box1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #513e51;
+  border-radius: 0.5rem;
+}
+
+.media-box2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #975a6c;
+  border-radius: 0.5rem;
+}
+
+.media-box3 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #d87e6f;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
