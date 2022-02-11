@@ -1,24 +1,20 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
 export function Nav() {
-  const navigate = useNavigate();
-  const navigateFun = (route) => {
-    navigate(route);
-  };
-
   return (
     <div className="container">
       <div className="first-nav-items">
         <p>logo</p>
-        <p onClick={navigateFun("/dev")} className="nav-opt">
+        <a href="/dev" className="nav-opt">
           Dev
-        </p>
-        <p onClick={navigateFun("/dev")} className="nav-opt">
+        </a>
+        <a href="/dev" className="nav-opt">
           Design
-        </p>
-        <a href="#">NFT</a>
+        </a>
+        <a href="https://opensea.io/collection/paradox-ghosts" target="_blank">
+          NFT
+        </a>
       </div>
       <div className="second-nav-items">
         <div className="media-box1"></div>

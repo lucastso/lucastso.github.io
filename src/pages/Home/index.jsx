@@ -13,7 +13,7 @@ export function Home() {
       <div className="container2">
         <div className="resume-container">
           <p>
-            Hi, my name is Lucas Tassi. I'm a full-stack and React Native
+            Hi, my name is Lucas Tassi. I'm a front-end and React Native
             developer.
           </p>
         </div>
