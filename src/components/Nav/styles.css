@@ -10,6 +10,7 @@
 
 .first-nav-items {
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -20,7 +21,7 @@
 
 .nav-opt {
   color: rgb(226, 226, 226);
-  font-weight: 300;
+  font-weight: 500;
   cursor: pointer;
 }
 

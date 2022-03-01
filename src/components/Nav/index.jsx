@@ -3,12 +3,13 @@ import "./styles.css";
 import github from "../../assets/github.svg";
 import insta from "../../assets/insta.svg";
 import linkedin from "../../assets/linkedin.svg";
+import logo from "../../assets/logo.svg";
 
 export function Nav() {
   return (
     <div className="container">
       <div className="first-nav-items">
-        <p>logo</p>
+        <img src={logo} alt="logo icon" />
         <a href="/dev" className="nav-opt">
           Dev
         </a>
@@ -19,6 +20,7 @@ export function Nav() {
           href="https://opensea.io/collection/paradox-ghosts"
           target="_blank"
           rel="noreferrer"
+          className="nav-opt"
         >
           NFT
         </a>
