@@ -29,6 +29,9 @@
   height: 2.5rem;
   background-color: #513e51;
   border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .media-box2 {
@@ -36,6 +39,9 @@
   height: 2.5rem;
   background-color: #975a6c;
   border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .media-box3 {
@@ -43,6 +49,9 @@
   height: 2.5rem;
   background-color: #d87e6f;
   border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 a {
