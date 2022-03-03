@@ -1,14 +1,22 @@
 .container2 {
-  padding: 20rem 42rem 0rem 42rem;
+  padding: 0rem 42rem 0rem 42rem;
 }
 
 .resume-container {
-  color: rgb(226, 226, 226);
+  color: rgb(54, 54, 54);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0.5rem;
   height: 6vh;
+}
+
+.figure-container {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }

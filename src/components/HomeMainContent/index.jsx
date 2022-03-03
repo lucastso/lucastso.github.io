@@ -16,12 +16,11 @@ export function HomeMainContent() {
         and work with front-end. Check it out!
       </p>
       <div className="button-container">
-        <p></p>
-        <button className="button">
-          <a href="/dev" className="button-link">
-            Dev
+        <h3>
+          <a href="/dev" className="checkit">
+            Check it out!
           </a>
-        </button>
+        </h3>
       </div>
     </div>
   );
