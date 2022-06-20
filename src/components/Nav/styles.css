@@ -1,14 +1,14 @@
 .wrapper {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .container {
   height: 6vh;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(23, 25, 27, 0.5);
   backdrop-filter: blur(4px);
-  padding: 0 36rem;
+  padding: 0 32rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .nav-opt {
-  color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
   font-weight: 500;
   cursor: pointer;
 }
@@ -34,7 +34,6 @@
 .media-box1 {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #23a0d4;
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -44,7 +43,6 @@
 .media-box2 {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #ff64c6;
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -54,7 +52,6 @@
 .media-box3 {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #ffac30;
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -64,4 +61,18 @@
 a {
   text-decoration: none;
   color: rgb(54, 54, 54);
+}
+
+@media only screen and (max-width: 1919px) {
+  .container {
+    padding: 0 16rem;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .container {
+    padding: 0 2rem;
+    flex-direction: column;
+    height: 12vh;
+  }
 }

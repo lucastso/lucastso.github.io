@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Nav } from "../../components/Nav";
 import "./styles.css";
 
 export function Dev() {
@@ -12,10 +13,12 @@ export function Dev() {
 
   return (
     <div>
-      <p>dev</p>
-      <button onClick={handleClick} type="button">
-        aaaaa
-      </button>
+      <Nav />
+      <div className="container2">
+        <div className="figure-container">
+          <p>projects</p>
+        </div>
+      </div>
     </div>
   );
 }

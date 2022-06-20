@@ -10,8 +10,8 @@ export function HomeMainContent() {
       </div>
       <p className="resume">
         Hi, my name is Lucas Tassi. Currently studying full-stack development
-        and System Analysis and Development, working with Laravel and React
-        Native. Passionate about UI/UX and the programming world. I had the
+        and System Analysis and Development, working with Web and Mobile
+        Development. Passionate about UI/UX and the programming world. I had the
         opportunity to develop some projects recently, since I started to study
         and work with front-end. Check it out!
       </p>

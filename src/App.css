@@ -5,9 +5,8 @@
 }
 
 .app {
-  background-color: #ffffff;
+  background-color: rgb(28, 30, 33);
   min-height: 100vh;
-  min-width: 100vh;
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 

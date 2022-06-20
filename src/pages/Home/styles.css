@@ -1,16 +1,18 @@
 .container2 {
-  padding: 0rem 42rem 0rem 42rem;
+  padding: 0rem 36rem 0rem 36rem;
 }
 
 .resume-container {
-  color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(23, 25, 27, 0.5);
   border-radius: 0.5rem;
   height: 6vh;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .figure-container {
@@ -19,4 +21,22 @@
   display: flex;
   align-content: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1919px) {
+  .container2 {
+    padding: 0rem 16rem 0rem 16rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .container2 {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  .resume-container {
+    height: 8vh;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }

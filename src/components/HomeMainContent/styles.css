@@ -1,8 +1,8 @@
 .main-container {
   padding-top: 2rem;
-  padding-left: 42rem;
-  padding-right: 42rem;
-  color: rgb(54, 54, 54);
+  padding-left: 36rem;
+  padding-right: 36rem;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -13,15 +13,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0rem;
 }
 
 .title-with-div {
   height: 0.25rem;
   width: 6.5rem;
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-checkit {
-  color: rgb(54, 54, 54);
+.checkit {
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1919px) {
+  .main-container {
+    padding-right: 16rem;
+    padding-left: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .main-container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .button-container {
+    padding-bottom: 2rem;
+  }
 }

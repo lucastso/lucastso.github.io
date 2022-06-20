@@ -10,12 +10,14 @@ export function Nav() {
     <div className="wrapper">
       <div className="container">
         <div className="first-nav-items">
-          <img src={logo} alt="logo icon" />
+          <a href="/">
+            <img src={logo} alt="logo icon" />
+          </a>
+          <a href="/" className="nav-opt">
+            Home
+          </a>
           <a href="/dev" className="nav-opt">
             Dev
-          </a>
-          <a href="/design" className="nav-opt">
-            Design
           </a>
           <a
             href="https://opensea.io/collection/paradox-ghosts"

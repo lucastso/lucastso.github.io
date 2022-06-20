@@ -16,10 +16,7 @@ export function Home() {
           <img src={figure} width="360" alt="colorful figure" />
         </div>
         <div className="resume-container">
-          <p>
-            Hi, my name is Lucas Tassi. I'm a front-end and React Native
-            developer.
-          </p>
+          <p>Hi, my name is Lucas Tassi. I'm a web and mobile developer.</p>
         </div>
       </div>
       <HeaderProfile />
