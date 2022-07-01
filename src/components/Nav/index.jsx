@@ -4,6 +4,7 @@ import github from "../../assets/github.svg";
 import insta from "../../assets/insta.svg";
 import linkedin from "../../assets/linkedin.svg";
 import logo from "../../assets/logo.svg";
+import email from "../../assets/email.svg";
 
 export function Nav() {
   return (
@@ -52,6 +53,14 @@ export function Nav() {
             rel="noreferrer"
           >
             <img src={linkedin} alt="linkedin icon" />
+          </a>
+          <a
+            href="mailto:aboutlucastso@gmail.com"
+            className="media-box3"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={email} alt="linkedin icon" />
           </a>
         </div>
       </div>
