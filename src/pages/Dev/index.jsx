@@ -27,16 +27,16 @@ export function Dev() {
               <p className="work-name">Woogon</p>
               <span className="work-date">jun/22</span>
               <span>-</span>
-              <span className="work-date">atualmente</span>
+              <span className="work-date">nowadays</span>
               <img src={pin} alt="" />
             </div>
 
-            <p className="work-desc">Uma plataforma de cursos organizados por mim. A ideia da aplicação é oferecer uma variedade de cursos voltados principalmente para o desenvolvimento front-end e UI.</p>
+            <p className="work-desc">A course platform organized by me. The idea for the application is to offer a variety of lessons mainly focusing in front-end development and UI.</p>
 
             <div className="work-second-desc">
               <div className="work-second-desc-line">
                 <span className="work-second-desc-badge">WEBSITE</span>
-                <p>Em progresso</p>
+                <p>In progress</p>
               </div>
               <div className="work-second-desc-line">
                 <span className="work-second-desc-badge">STACK</span>
@@ -53,12 +53,12 @@ export function Dev() {
             <div className="work-title">
               <p className="work-works-keyword">Works {'>'}</p>
               <p className="work-name">QEdu</p>
-              <span className="work-date">ago/21</span>
+              <span className="work-date">aug/21</span>
               <span>-</span>
-              <span className="work-date">atualmente</span>
+              <span className="work-date">nowadays</span>
             </div>
 
-            <p className="work-desc">Com a visão de estar presente no dia-a-dia das instituições e pessoas comprometidas com a melhoria da educação básica do Brasil, o QEdu da vida aos dados para promover melhores escolhas na educação. A nova apresentação do portal ficou mais fácil de navegar e responsiva para celulares. Mas não só isso.</p>
+            <p className="work-desc">With the mission and vision of being present on the day-by-day of organizations and people compromised with changing the basic education in Brazil, QEdu gives life to data to promote better choices in education. The new website presentation became easy to experience and navigate. But not just this.</p>
 
             <div className="work-second-desc">
               <div className="work-second-desc-line">
@@ -81,21 +81,21 @@ export function Dev() {
             <div className="work-title">
               <p className="work-works-keyword">Works {'>'}</p>
               <p className="work-name">Cumaru</p>
-              <span className="work-date">maio/22</span>
+              <span className="work-date">may/22</span>
               <span>-</span>
-              <span className="work-date">atualmente</span>
+              <span className="work-date">nowadays</span>
             </div>
 
-            <p className="work-desc">Website extremamente moderno para uma loja de móveis. O layout, as cores e a experiència da aplicação deveriam estar sincronizados com a identidade visual do negócio. Todas as espectativas foram atingidas.</p>
+            <p className="work-desc">An extreme modern website to a furniture shop. The layout, colors and the user experience of the application had to be side by side with the business visual identity. All the expectations were reached.</p>
 
             <div className="work-second-desc">
               <div className="work-second-desc-line">
                 <span className="work-second-desc-badge">WEBSITE</span>
-                <a href="http://cumarumoveis.com.br/" target="_blank" className="work-link">http://cumarumoveis.com.br/</a>
+                <a href="https://www.cumarumoveis.com.br/" target="_blank" className="work-link">https://www.cumarumoveis.com.br/</a>
               </div>
               <div className="work-second-desc-line">
                 <span className="work-second-desc-badge">STACK</span>
-                <p>Next.js / React</p>
+                <p>React</p>
               </div>
             </div>
 
@@ -114,12 +114,12 @@ export function Dev() {
               <span className="work-date">mar/22</span>
             </div>
 
-            <p className="work-desc">Processo de redesign de uma intranet para as plataformas web e mobile, para Android, iOS e Desktop. A solução deveria ser simples e, logicamente, resolver o problema. A aplicação conta com uma tela de login, um feed, uma seção de album e fotos, eventos e lojas parceiras do cliente. A aplicação foi perfeitamente implementada.</p>
+            <p className="work-desc">The challenge was to redesign and create a intranet to mobile and web platforms, iOS and Android. The solution must had been simple and , logically, solve the problem. The application has a simple login screen, a feed, an albumn section with organizational pictures, events and department stores. We solve it.</p>
 
             <div className="work-second-desc">
               <div className="work-second-desc-line">
                 <span className="work-second-desc-badge">WEBSITE</span>
-                <p>Disponível para internos da organização</p>
+                <p>Available only to organization members</p>
               </div>
               <div className="work-second-desc-line">
                 <span className="work-second-desc-badge">STACK</span>
