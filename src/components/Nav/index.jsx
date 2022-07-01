@@ -57,7 +57,6 @@ export function Nav() {
           <a
             href="mailto:aboutlucastso@gmail.com"
             className="media-box3"
-            target="_blank"
             rel="noreferrer"
           >
             <img src={email} alt="linkedin icon" />
