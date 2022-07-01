@@ -10,6 +10,10 @@
   gap: 3rem;
 }
 
+.work-image {
+  border-radius: 0.25rem;
+}
+
 .work-section {
   display: flex;
   flex-direction: column;
@@ -85,9 +89,7 @@
     padding: 0rem 2rem 0rem 2rem;
   }
 
-  .resume-container {
-    height: 8vh;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .works-figure-container {
+    padding-top: 10rem;
   }
 }

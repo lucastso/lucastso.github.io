@@ -3,6 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { Nav } from "../../components/Nav";
 import "./styles.css";
 import pin from "../../assets/pin.svg";
+import infoeuro from "../../assets/infoeuro.png";
+import woogon from "../../assets/woogon.png";
+import cumaru from "../../assets/cumaru.png";
+import qedu from "../../assets/qedu.png";
 
 export function Dev() {
   document.title = "Lucas Tassi > Dev";
@@ -40,8 +44,10 @@ export function Dev() {
               </div>
             </div>
 
-            <img src="#" alt="#" />
+            <img src={woogon} alt="woogon picture" className="work-image"/>
           </div>
+
+          {/* qedu */}
           <div className="work-section">
 
             <div className="work-title">
@@ -65,37 +71,11 @@ export function Dev() {
               </div>
             </div>
 
-            <img src="#" alt="#" />
+            <img src={qedu} alt="qedu project" className="work-image"/>
 
           </div>
 
-          <div className="work-section">
-
-            <div className="work-title">
-              <p className="work-works-keyword">Works {'>'}</p>
-              <p className="work-name">InfoEuro</p>
-              <span className="work-date">nov/21</span>
-              <span>-</span>
-              <span className="work-date">mar/22</span>
-            </div>
-
-            <p className="work-desc">Processo de redesign de uma intranet para as plataformas web e mobile, para Android, iOS e Desktop. A solução deveria ser simples e, logicamente, resolver o problema. A aplicação conta com uma tela de login, um feed, uma seção de album e fotos, eventos e lojas parceiras do cliente. A aplicação foi perfeitamente implementada.</p>
-
-            <div className="work-second-desc">
-              <div className="work-second-desc-line">
-                <span className="work-second-desc-badge">WEBSITE</span>
-                <p>Disponível para internos da organização</p>
-              </div>
-              <div className="work-second-desc-line">
-                <span className="work-second-desc-badge">STACK</span>
-                <p>React Native / Laravel / MySQL / Alpine.js</p>
-              </div>
-            </div>
-
-            <img src="#" alt="#" />
-
-          </div>
-
+          {/* cumaru */}
           <div className="work-section">
 
             <div className="work-title">
@@ -119,7 +99,35 @@ export function Dev() {
               </div>
             </div>
 
-            <img src="#" alt="#" />
+            <img src={cumaru} alt="cumaru project" className="work-image"/>
+
+          </div>
+
+          {/* infoeuro */}
+          <div className="work-section">
+
+            <div className="work-title">
+              <p className="work-works-keyword">Works {'>'}</p>
+              <p className="work-name">InfoEuro</p>
+              <span className="work-date">nov/21</span>
+              <span>-</span>
+              <span className="work-date">mar/22</span>
+            </div>
+
+            <p className="work-desc">Processo de redesign de uma intranet para as plataformas web e mobile, para Android, iOS e Desktop. A solução deveria ser simples e, logicamente, resolver o problema. A aplicação conta com uma tela de login, um feed, uma seção de album e fotos, eventos e lojas parceiras do cliente. A aplicação foi perfeitamente implementada.</p>
+
+            <div className="work-second-desc">
+              <div className="work-second-desc-line">
+                <span className="work-second-desc-badge">WEBSITE</span>
+                <p>Disponível para internos da organização</p>
+              </div>
+              <div className="work-second-desc-line">
+                <span className="work-second-desc-badge">STACK</span>
+                <p>React Native / Laravel / MySQL / Alpine.js</p>
+              </div>
+            </div>
+
+            <img src={infoeuro} alt="infoeuro project" className="work-image"/>
 
           </div>
         </div>
