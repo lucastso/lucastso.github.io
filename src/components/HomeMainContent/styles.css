@@ -9,7 +9,7 @@
 }
 
 .button-container {
-  padding-top: 1rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +25,9 @@
 
 .checkit {
   color: rgb(255, 255, 255);
+  padding: 6px 8px 6px 8px;
+  border-radius: 0.25rem;
+  background-color: rgb(24, 24, 24);
 }
 
 @media only screen and (max-width: 1919px) {

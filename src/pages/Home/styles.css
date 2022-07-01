@@ -23,6 +23,10 @@
   justify-content: center;
 }
 
+.figure-image {
+  border-radius: 0.25rem;
+}
+
 @media only screen and (max-width: 1919px) {
   .container2 {
     padding: 0rem 16rem 0rem 16rem;
