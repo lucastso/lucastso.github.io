@@ -2,25 +2,76 @@
   padding: 0rem 36rem 0rem 36rem;
 }
 
-.resume-container {
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: rgba(23, 25, 27, 0.5);
-  border-radius: 0.5rem;
-  height: 6vh;
-  padding-left: 0rem;
-  padding-right: 0rem;
-}
-
-.figure-container {
+.works-figure-container {
   padding-top: 6rem;
   padding-bottom: 2rem;
   display: flex;
-  align-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #FFF;
+  width: 100%;
+}
+
+.work-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.work-date {
+  padding: 2px 4px 2px 4px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 2px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: bold;
+}
+
+.work-desc {
+  text-indent: 1rem;
+}
+
+.work-second-desc {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.work-second-desc-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.work-link {
+  color: #fff;
+}
+
+.work-second-desc-badge {
+  padding: 2px 4px 2px 4px;
+  background-color: #005DDF;
+  border-radius: 2px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: bold;
+}
+
+.work-name {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.work-works-keyword {
+  color: #DB02FC;
 }
 
 @media only screen and (max-width: 1919px) {
