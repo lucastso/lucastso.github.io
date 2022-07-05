@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5f0b0e7.css",
+    "main.js": "/static/js/main.3b432e41.js",
+    "static/media/cumaru.png": "/static/media/cumaru.c507693b0fd6d6a214a6.png",
+    "static/media/woogon.png": "/static/media/woogon.da1a571f2ed0dcc7dcc4.png",
+    "static/media/figure1.png": "/static/media/figure1.408e98c6656b5a4aff3d.png",
+    "static/media/qedu.png": "/static/media/qedu.4bf60b257674700a237e.png",
+    "static/media/lts.jpg": "/static/media/lts.8dc73876d9ab4bb08abc.jpg",
+    "static/media/infoeuro.png": "/static/media/infoeuro.39d6f5aebfc92133769f.png",
+    "static/media/logo.svg": "/static/media/logo.8e7386a8d2aba892f58b852766b5793b.svg",
+    "static/media/insta.svg": "/static/media/insta.3d7a925491274fa1519bcae1ee5ec7e3.svg",
+    "static/media/pin.svg": "/static/media/pin.bbd59969feb0120e00e0b6e3beb95e40.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.b501f64b12f0d4d4e65d46f52647c807.svg",
+    "static/media/github.svg": "/static/media/github.9d314a55f09e357fdf820e8ac09fa517.svg",
+    "index.html": "/index.html",
+    "static/media/email.svg": "/static/media/email.e1a53fea6c8ceb4d60e1d0b24c191f23.svg",
+    "main.c5f0b0e7.css.map": "/static/css/main.c5f0b0e7.css.map",
+    "main.3b432e41.js.map": "/static/js/main.3b432e41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5f0b0e7.css",
+    "static/js/main.3b432e41.js"
+  ]
+}
