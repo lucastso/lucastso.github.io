@@ -1,2 +1,2 @@
 This is my personal website!
-<a href="lucastso.vercel.app">lucastso.vercel.app</a>
+<a href="https://lucastso.vercel.app">lucastso.vercel.app</a>
